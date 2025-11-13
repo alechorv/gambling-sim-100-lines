@@ -77,7 +77,7 @@ else:
             if int(multi) == 0:
                 print("Wow, really got us with that one.")
             elif int(bet) == 0:
-                print("Bro got the big jackpot.")
+                print("Bro hit the big jackpot.")
         else:
             wallet -= bet # Subtract the player's bet from their wallet
 
@@ -97,3 +97,4 @@ else:
 # Runs after the loop has broken (Cashout, No money, etc...)
 print("\nThanks for playing!")
 print(f"FINAL CASHOUT: {wallet}\n")
+
